@@ -112,12 +112,10 @@ h2 a {
   transition-timing-function: line;
 }
 
-@media (max-width: 800px) {
-	.container td:nth-child(4),
-.container th:nth-child(4) {
-		  display: none;
-	  }
-}
+ @media (max-width: 800px) {
+    .container td:last-child,
+    .container th:last-child { display: none; }
+ }
 
 /*	
 	End of the <Table> Responsive
